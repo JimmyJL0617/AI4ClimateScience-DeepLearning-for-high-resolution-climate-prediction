@@ -2615,8 +2615,8 @@ def main():
         print("🚨 WARNING: mpi4py not found. Running in single-process mode.")
     
     # Define file paths
-    era5_path = "/mnt/junming_disk/ERA5.netcdf"
-    sea_ice_root_dir = "/mnt/junming_disk/L2_SIT"
+    era5_path = "/.../.../"
+    sea_ice_root_dir = "/.../.../"
     
     # --- ENHANCEMENT: Define the data pool and select random training dates ---
     pool_start_date = datetime(2024, 12, 1)
@@ -2716,3 +2716,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
